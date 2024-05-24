@@ -1,17 +1,19 @@
 package clone.tricount.interceptor;
 
-import com.goorm.tricountapi.MemberContext;
-import com.goorm.tricountapi.TricountApiConst;
-import com.goorm.tricountapi.exception.ForbiddenAccessException;
-import com.goorm.tricountapi.model.Member;
-import com.goorm.tricountapi.service.MemberService;
+
+import clone.tricount.MemberContext;
+import clone.tricount.TricountApiConst;
+import clone.tricount.exception.ForbiddenAccessException;
+import clone.tricount.model.Member;
+import clone.tricount.service.MemberService;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
 import java.util.Arrays;
 import java.util.Map;
 import java.util.function.Function;

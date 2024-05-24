@@ -1,8 +1,8 @@
 package clone.tricount.repository;
 
-import com.goorm.tricountapi.model.ExpenseResult;
-import com.goorm.tricountapi.model.Member;
-import com.goorm.tricountapi.model.Settlement;
+import clone.tricount.model.ExpenseResult;
+import clone.tricount.model.Member;
+import clone.tricount.model.Settlement;
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

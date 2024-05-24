@@ -1,6 +1,7 @@
 package clone.tricount;
 
-import com.goorm.tricountapi.model.Member;
+
+import clone.tricount.model.Member;
 
 public class MemberContext {
 

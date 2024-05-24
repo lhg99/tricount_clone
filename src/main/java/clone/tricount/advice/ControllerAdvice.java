@@ -1,7 +1,7 @@
 package clone.tricount.advice;
 
 
-import com.goorm.tricountapi.exception.ForbiddenAccessException;
+import clone.tricount.exception.ForbiddenAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

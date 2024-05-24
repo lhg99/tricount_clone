@@ -1,7 +1,8 @@
 package clone.tricount.service;
 
-import com.goorm.tricountapi.model.Member;
-import com.goorm.tricountapi.repository.MemberRepository;
+
+import clone.tricount.model.Member;
+import clone.tricount.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

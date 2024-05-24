@@ -1,7 +1,7 @@
 package clone.tricount.model;
 
 
-import com.goorm.tricountapi.MemberContext;
+import clone.tricount.MemberContext;
 import lombok.Data;
 
 import java.math.BigDecimal;

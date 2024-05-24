@@ -1,8 +1,9 @@
 package clone.tricount.controller;
 
 
-import com.goorm.tricountapi.model.ExpenseRequest;
-import com.goorm.tricountapi.service.ExpenseService;
+
+import clone.tricount.model.ExpenseRequest;
+import clone.tricount.service.ExpenseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
 package clone.tricount.config;
 
 
-import com.goorm.tricountapi.interceptor.LoginCheckInterceptor;
+import clone.tricount.interceptor.LoginCheckInterceptor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

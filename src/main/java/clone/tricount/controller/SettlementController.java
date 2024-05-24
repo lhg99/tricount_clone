@@ -1,8 +1,9 @@
 package clone.tricount.controller;
 
 
-import com.goorm.tricountapi.model.Settlement;
-import com.goorm.tricountapi.service.SettlementService;
+
+import clone.tricount.model.Settlement;
+import clone.tricount.service.SettlementService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package clone.tricount.repository;
 
-import com.goorm.tricountapi.model.Expense;
+import clone.tricount.model.Expense;
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

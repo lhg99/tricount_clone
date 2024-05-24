@@ -1,11 +1,12 @@
 package clone.tricount.service;
 
 
-import com.goorm.tricountapi.model.Expense;
-import com.goorm.tricountapi.model.ExpenseRequest;
-import com.goorm.tricountapi.model.Settlement;
-import com.goorm.tricountapi.repository.ExpenseRepository;
-import com.goorm.tricountapi.repository.SettlementRepository;
+
+import clone.tricount.model.Expense;
+import clone.tricount.model.ExpenseRequest;
+import clone.tricount.model.Settlement;
+import clone.tricount.repository.ExpenseRepository;
+import clone.tricount.repository.SettlementRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
