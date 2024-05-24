@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPOSITORY=/home/ec2-user/app
+REPOSITORY=/home/ec2-user/build
 cd $REPOSITORY
 
 APP_NAME=tricount

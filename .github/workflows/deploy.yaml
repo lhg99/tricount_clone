@@ -34,7 +34,7 @@ jobs:
 
       - name: Code deploy
         run: aws deploy create-deployment --application-name tricount_codeDeploy
-          --deployment-config-name CodeDeployDefault.OneAtATime
+          --deployment-config-name CodeDeployDefault.AllAtOnce
           --deployment-group-name group1
           --s3-location bucket=tricount-bucket22,bundleType=zip,key=tricount.zip
 
