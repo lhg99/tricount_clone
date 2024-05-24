@@ -3,7 +3,7 @@
 REPOSITORY=/home/ec2-user/app
 cd $REPOSITORY
 
-APP_NAME=tricountapi
+APP_NAME=tricount
 
 CURRENT_PID=$(pgrep -f $APP_NAME)
 
@@ -17,5 +17,5 @@ else
 fi
 
 
-nohup java -jar /home/ec2-user/app/build/libs/tricountapi-1.0.jar 1>/dev/null 2>&1 &
-echo "run /home/ec2-user/app/build/libs/tricountapi-1.0.jar"
+nohup java -jar /home/ec2-user/app/build/libs/tricount-0.0.1-SNAPSHOT.jar 1>/dev/null 2>&1 &
+echo "run /home/ec2-user/app/build/libs/tricount-0.0.1-SNAPSHOT.jar"
