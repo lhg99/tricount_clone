@@ -6,14 +6,15 @@ import clone.tricount.TricountApiConst;
 import clone.tricount.exception.ForbiddenAccessException;
 import clone.tricount.model.Member;
 import clone.tricount.service.MemberService;
-import jakarta.servlet.http.Cookie;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Arrays;
 import java.util.Map;
 import java.util.function.Function;
